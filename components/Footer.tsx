@@ -1,6 +1,6 @@
-import { footerLinks } from "@/constants";
-import Image from "next/image";
-import Link from "next/link";
+import { footerLinks } from '@/constants';
+import Image from 'next/image';
+import Link from 'next/link';
 
 type ColumnProps = {
   title: string;
@@ -25,7 +25,7 @@ const Footer = () => {
     <footer className="flexStart footer">
       <div className="flex flex-col gap-12 w-full">
         <div className="flex items-start flex-col">
-          <Image src="/logo-purple.svg" alt="Drupple" width={115} height={38} />
+          <Image src="/drupple-v.png" alt="Drupple" width={115} height={38} />
 
           <p className="text-start text-sm font-normal mt-5 max-w-xs">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
